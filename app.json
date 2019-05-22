@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/blog/index",
+    "pages/book/index",
+    "pages/store/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "defaultTitle": "天道图书馆"
+  },
+  "tabBar": {
+    "items": [
+      {
+        "pagePath": "pages/book/index",
+        "icon": "image/icon_component.png",
+        "activeIcon": "image/icon_component_HL.png",
+        "name": "书架"
+      },
+      {
+        "pagePath": "pages/blog/index",
+        "icon": "image/icon_API.png",
+        "activeIcon": "image/icon_API_HL.png",
+        "name": "博客"
+      },
+      {
+        "pagePath": "pages/store/index",
+        "icon": "image/icon_biz.png",
+        "activeIcon": "image/icon_biz_HL.png",
+        "name": "书城"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "icon": "image/icon_biz.png",
+        "activeIcon": "image/icon_biz_HL.png",
+        "name": "我的"
+      }
+    ]
+  }
+}
